@@ -1,8 +1,8 @@
 <?php
-$host   = 'localhost';
-$user   = 'root';
-$pass   = '';
-$dbname = 'webdb';
+$host = 'sql201.infinityfree.com';
+$user = 'ใส่ MySQL Username ของคุณ';
+$pass = 'ใส่ MySQL Password ของคุณ';
+$dbname = 'if0_43094972_notedb';
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 if ($conn->connect_error) {
