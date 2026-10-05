@@ -1,7 +1,7 @@
 <?php
 $host = 'sql201.infinityfree.com';
-$user = 'ใส่ MySQL Username ของคุณ';
-$pass = 'ใส่ MySQL Password ของคุณ';
+$user = 'if0_43094972';
+$pass = 'PTsiJlwtC0afv';
 $dbname = 'if0_43094972_notedb';
 
 $conn = new mysqli($host, $user, $pass, $dbname);
